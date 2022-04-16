@@ -1,0 +1,17 @@
+.table{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    
+}
+td{
+    border-bottom: 1px solid black;
+}
+table{
+    width: 50%;
+}
+button{
+    margin: 10px;
+}
