@@ -16,7 +16,7 @@ export const Country = () => {
 
   return (
     <div>
-        <input type="text" placeholder='country' onChange={(e)=>{
+        <span>Add Country</span><input type="text" placeholder='country' onChange={(e)=>{
             setCountry(e.target.value)
         }} />
         <button onClick={handleSubmit}>submit</button>

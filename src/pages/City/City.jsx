@@ -5,10 +5,10 @@ import "./City.css"
 export const City = () => {
   return (
     <div className='add-city'>
-        <input type="text"  placeholder='country' id='country'/>
+        <span>Add Country</span><input type="text"  placeholder='country' id='country'/>
         <br/>
 
-        <input type="number" placeholder='population' id='population'/>
+        <span>Add Population</span><input type="number" placeholder='population' id='population'/>
         <br/>
         <button>submit</button>
     </div>
