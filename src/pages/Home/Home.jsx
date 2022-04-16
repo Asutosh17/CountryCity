@@ -9,16 +9,9 @@ export const Home = () => {
     getCities()
   },[])
 
-  const handleDelete = ()=>{
-
-  }
-
-  const handleEdit = ()=>{
-      
-  }
 
   const getCities = ()=>{
-      axios.get("http://localhost:3005/cities").then((res)=>{
+      axios.get("http://localhost:8080/cities").then((res)=>{
           setCities(res.data)
       })
   }
@@ -43,8 +36,8 @@ export const Home = () => {
                     <td>{el.country}</td>
                     <td>{el.city}</td>
                     <td>{el.population}</td>
-                    <td><button onClick={handleEdit}>edit</button></td>
-                    <td><button onClick={handleDelete}>delete</button></td>
+                    <td><button onClick="">edit</button></td>
+                    <td><button onClick="">delete</button></td>
                 </tr>
                 </>              
                 )

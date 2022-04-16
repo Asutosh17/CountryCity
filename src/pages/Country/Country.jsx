@@ -11,7 +11,7 @@ export const Country = () => {
 
 
     const handleSubmit= ()=>{
-        axios.post("http://localhost:3005/countries", {country})
+        axios.post("http://localhost:8080/countries", {country})
     }
 
   return (
