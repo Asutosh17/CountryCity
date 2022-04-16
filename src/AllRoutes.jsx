@@ -1,6 +1,5 @@
-import {Routes, Route} from "react-router-dom"
-
 import React from 'react'
+import {Routes, Route} from "react-router-dom"
 import { Home } from "./pages/Home/Home"
 import { Country } from "./pages/Country/Country"
 import { City } from "./pages/City/City"
