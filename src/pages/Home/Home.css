@@ -1,17 +1,19 @@
-.table{
-    display: flex;
-    flex-direction: column;
+table{
+    margin: auto;
     margin-top: 50px;
     align-items: center;
     justify-content: center;
     
 }
+th{
+    border: 1px solid black;
+    padding: 10px 50px;
+}
 td{
     border-bottom: 1px solid black;
-}
-table{
-    width: 50%;
+    padding: 10px 50px;
 }
 button{
-    margin: 10px;
+    margin: 50px;
+    padding: 8px;
 }
